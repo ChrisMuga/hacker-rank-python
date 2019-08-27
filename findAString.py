@@ -1,7 +1,6 @@
 string = "WoW!TestCaseTestCase"
 substring  = "CaseT"
 str1 = ""
-
 # find index 1 of substring
 substring_index = substring[0]
 substring_length = len(substring)
@@ -9,7 +8,6 @@ if substring in string:
     c = string.index(substring)
     counter = c
     match_count = 0
-
     while counter < len(string)-1:
         if string[counter] == substring_index:
             c_ = 0
